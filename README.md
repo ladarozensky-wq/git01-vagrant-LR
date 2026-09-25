@@ -130,21 +130,34 @@ Adresář `srv01/.vagrant/` vznikne pouze lokálně při práci s Vagrantem a ne
 
 ### Kontrola před odevzdáním
 
-- [ ] Mám vlastní adresář serveru a v něm správně pojmenovaný `Vagrantfile`.
-- [ ] Vybral/a jsem Linuxovou distribuci ze vzorů ročníkového projektu.
-- [ ] Server se spustí a mohu se do něj přihlásit pomocí `vagrant ssh`.
-- [ ] `.gitignore` vylučuje `.vagrant/` a žádné soubory z něj nejsou sledované Gitem.
-- [ ] Na serveru jsem spustil/a ověřovací skript a vložil/a kód i celý záznam do části Moje řešení.
-- [ ] Doplnil/a jsem část Moje řešení a odeslal/a změny do GitHub Classroom repozitáře.
+- [x] Mám vlastní adresář serveru a v něm správně pojmenovaný `Vagrantfile`.
+- [x] Vybral/a jsem Linuxovou distribuci ze vzorů ročníkového projektu.
+- [x] Server se spustí a mohu se do něj přihlásit pomocí `vagrant ssh`.
+- [x] `.gitignore` vylučuje `.vagrant/` a žádné soubory z něj nejsou sledované Gitem.
+- [x] Na serveru jsem spustil/a ověřovací skript a vložil/a kód i celý záznam do části Moje řešení.
+- [x] Doplnil/a jsem část Moje řešení a odeslal/a změny do GitHub Classroom repozitáře.
 
 ## Moje řešení
 
-- **Distribuce a verze:** doplňte
-- **Použitý Vagrant box:** doplňte
-- **Adresář serveru:** doplňte
-- **Výsledek spuštění a přihlášení:** doplňte
-- **Případné problémy a jejich řešení:** doplňte
-- **Kontrolní kód a záznam ze serveru:** sem vložte celý Markdown blok vypsaný skriptem
+- **Distribuce a verze:** Ubuntu 24.04.3 LTS
+- **Použitý Vagrant box:** bento/ubuntu-24.04
+- **Adresář serveru:** srv01
+- **Výsledek spuštění a přihlášení:** `vagrant up` proběhl úspěšně, přihlášení přes `vagrant ssh` funguje, `cat /etc/os-release` potvrdil Ubuntu 24.04.3 LTS.
+- **Případné problémy a jejich řešení:** Vagrantfile byl nejdřív v kořeni repozitáře, přesunul jsem ho do adresáře srv01 a server spustil znovu odtamtud.
+- **Kontrolní kód a záznam ze serveru:**
+
+**Kontrolní kód:** `SPOS-3I-397ce1359ed3dc7560b62358a2b890294adf0c9752bc2053fcdbe5645a365bcc`
+
+```text
+Úloha: git-vagrant / SPOŠ / 3. I / v1
+Distribuce: Ubuntu 24.04.3 LTS
+Hostname: ubuntu24
+Kernel: 6.8.0-86-generic
+Virtualizace: oracle
+Čas UTC: 2026-09-25T06:48:18Z
+Náhodné ID: fc3f9377-d016-4954-87cc-bce48a7766ac
+```
+
 - **Bonus – AI obrázek a použitý prompt:** doplňte, pokud plníte bonus
 
 ## Nápověda a odkazy
