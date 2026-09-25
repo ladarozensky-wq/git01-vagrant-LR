@@ -4,7 +4,7 @@
 
 Vyberte si Linuxovou distribuci a pomocí Vagrantu si připravte vlastní virtuální server. Jeho konfiguraci uložte do svého repozitáře v GitHub Classroom, abyste prostředí mohli znovu vytvořit i na jiném počítači.
 
-![Git, Vagrant a Linux – naše první virtuální laboratoř](./Images/git-vagrant.png)
+![Moje virtuální Linuxová laboratoř](./Images/muj-linux-server.jpg)
 
 ## 1. Příprava repozitáře
 
@@ -158,7 +158,7 @@ Virtualizace: oracle
 Náhodné ID: fc3f9377-d016-4954-87cc-bce48a7766ac
 ```
 
-- **Bonus – AI obrázek a použitý prompt:** doplňte, pokud plníte bonus
+- **Bonus – AI obrázek a použitý prompt:** Google Gemini, prompt: Ilustrace ve stylu moderního tech plakátu: tučňák Tux sedí u notebooku, ze kterého vystupují průhledné krabice představující virtuální servery. Mezi nimi se větví oranžové čáry jako větve v Gitu. Tmavé pozadí, neonové modré a oranžové barvy, bez textu.
 
 ## Nápověda a odkazy
 
